@@ -12,7 +12,7 @@ Add these lines to your Jekyll project's Gemfile:
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}.git" }
 
 group :jekyll_plugins do
-  gem "jekyll-pseudohiki", :github, "nico-hn/jekyll-pseudohiki"
+  gem "jekyll-pseudohiki", :github => "nico-hn/jekyll-pseudohiki"
 end
 ```
 
