@@ -4,6 +4,7 @@ AllCops:
   NewCops: enable
   TargetRubyVersion: 2.7
   Exclude:
+    - 'vendor/**'
     - 'jekyll-pseudohiki.gemspec'
 
 Style/StringLiterals:
